@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: LGPL-3.0-only
 pragma solidity ^0.8.20;
 
-import { Merkle } from "../Electron/lib/Merkle.sol";
-import { Receipt } from "../Electron/lib/Receipt.sol";
+import { Merkle } from "./lib/Merkle.sol";
+import { Receipt } from "./lib/Receipt.sol";
 import { BlockHashAdapter } from "../BlockHashAdapter.sol";
 import { AccessControl } from "@openzeppelin/contracts/access/AccessControl.sol";
 import { ISpectre } from "./interfaces/ISpectre.sol";
